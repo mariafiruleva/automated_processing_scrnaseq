@@ -1,0 +1,26 @@
+Merge: True
+RunSingleAnalysis: True
+AdditionalMerge: []
+
+FilterMito: True
+FilterUMI: True
+WholeUMI: True
+
+PcaVarGenes: True
+PcaComponentsTotal: 50
+PcaComponentsTsne: 20
+PcaComponentsUmap: 20
+
+Threads: 4
+
+Clustering:
+  GraphBased:
+    PcaComponents: 20
+    Resolution: 0.6
+
+PathToFastTsne: /nfs/home/kzajcev/FIt-SNE/bin/fast_tsne
+
+## Variables related to task manager
+
+TaskMem: 32
+TaskWalltime: 24

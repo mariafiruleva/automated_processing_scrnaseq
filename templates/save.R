@@ -1,0 +1,8 @@
+file_out <- paste0("{{ RunName }}", '.RData')
+save(list = c('whole', 'whole.markers'), file = file_out)
+write.table(top50_log_fc, "top50_log_fc.tsv", sep="\t", quote=F, row.names=F)
+write.table(top100_log_fc, "top100_log_fc.tsv", sep="\t", quote=F, row.names=F)
+write.table(top200_log_fc, "top200_log_fc.tsv", sep="\t", quote=F, row.names=F)
+write.table(top50_adj_pval, "top50_adj_pval.tsv", sep="\t", quote=F, row.names=F)
+write.table(top100_adj_pval, "top100_adj_pval.tsv", sep="\t", quote=F, row.names=F)
+write.table(top200_adj_pval, "top200_adj_pval.tsv", sep="\t", quote=F, row.names=F)

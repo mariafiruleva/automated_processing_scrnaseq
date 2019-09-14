@@ -1,0 +1,12 @@
+RunName: SRA665712
+
+SampleIds: [ SRS3034950, SRS3034951, SRS3034952, SRS3034953 ]
+Objects:
+        - /scratch/mfiruleva/data/var/www/html/SRA/SRA.final/SRA665712_SRS3034950.sparse.RData
+        - /scratch/mfiruleva/data/var/www/html/SRA/SRA.final/SRA665712_SRS3034951.sparse.RData
+        - /scratch/mfiruleva/data/var/www/html/SRA/SRA.final/SRA665712_SRS3034952.sparse.RData
+        - /scratch/mfiruleva/data/var/www/html/SRA/SRA.final/SRA665712_SRS3034953.sparse.RData
+
+PathsToCounts: False
+
+PathToAnalysis: /scratch/mfiruleva/autumn/sc_pipeline_v2/sc_pipeline/test2

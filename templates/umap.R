@@ -1,0 +1,1 @@
+whole <- RunUMAP(whole, dims = 1:{{ PcaComponentsUmap }})
